@@ -1,0 +1,106 @@
+/* Stili generali per la pagina */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Colore di sfondo chiaro */
+  }
+ 
+  body {
+    min-height: 108vh; /* scroll pagina */
+}
+
+
+  /*testo 1 */
+  .esplora-i-parchi-d-italia,
+.esplora-i-parchi-d-italia * {
+  box-sizing: border-box;
+}
+.esplora-i-parchi-d-italia {
+  color: var(--color-black, #000000);
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 100px;
+  line-height: 108%;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+  position: relative;
+ top: 80px;
+ left: 60px;
+}
+
+ /*testo 2*/
+.i-parchi-naturali-italiani-sono-un-tesoro-di-ecosistemi-ricchi-paesaggi-mozzafiato-e-unici-legami-tra-uomo-e-ambiente-scopri-flora-fauna-e-le-storie-che-rendono-speciale-ogni-angolo-protetto-del-nostro-paese,
+.i-parchi-naturali-italiani-sono-un-tesoro-di-ecosistemi-ricchi-paesaggi-mozzafiato-e-unici-legami-tra-uomo-e-ambiente-scopri-flora-fauna-e-le-storie-che-rendono-speciale-ogni-angolo-protetto-del-nostro-paese
+  * {
+  box-sizing: border-box;
+}
+.i-parchi-naturali-italiani-sono-un-tesoro-di-ecosistemi-ricchi-paesaggi-mozzafiato-e-unici-legami-tra-uomo-e-ambiente-scopri-flora-fauna-e-le-storie-che-rendono-speciale-ogni-angolo-protetto-del-nostro-paese {
+  color: var(--color-black, #000000);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 129%;
+  font-weight: 400;
+  position: relative;
+  top: 110px;
+  left: 65px;
+}
+
+ /*testo 3*/
+.learn-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+  bottom: -200px;
+  right: 100px;
+}
+
+
+
+/*sezione immagine */
+img {
+    width: 80px; /* Imposta la larghezza a 100px */
+    height: auto; /* Mantiene le proporzioni originali */
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+position: absolute;
+top: 550px;
+
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+  }
+  
+  img {
+ 
+    border-radius: 20px; /* bordi arrotondati */
+  }
+
+  img {
+    width: 96%;
+    height: 360px;
+    position: absolute;
+   left: 20px;
+   bottom: 90px;
+    object-fit: cover; /* Ritaglia l'immagine per riempire il contenitore */
+  }
+  
+  /* spazio laterale */
+  img {
+    margin: 0 20px 20px;  /* 0px sopra, 20px a sinistra e a destra, 50px sotto */
+  }
+  
+
+
+  

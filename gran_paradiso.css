@@ -1,0 +1,1105 @@
+/* Stili generali per la pagina */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff; /* Colore di sfondo chiaro */
+  }
+ 
+  body {
+    min-height: 980vh; /* scroll pagina */
+}
+
+
+
+body {
+    overflow: hidden;
+  }
+
+
+
+/*footer */
+.footer,
+.footer * {
+    box-sizing: border-box;
+}
+
+.footer {
+    position: absolute;
+    top: 6450px;
+   justify-content: center;
+}
+
+.rectangle-647 {
+    background: #0d1f38;
+    width: 2444px;
+    height: 377px;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.info {
+    width: 1280.36px;
+    height: 234px;
+    position: center;
+}
+
+.frame-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 124px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 84px;
+    top: 59px;
+}
+
+._24-px {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.logo-3 {
+    flex-shrink: 0;
+    width: 211px;
+    height: 32px;
+    position: static;
+}
+
+.parchi-d-italia-1 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 29.462657928466797px;
+    line-height: 31.1px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.copyright {
+    color: #ffffff;
+    text-align: left;
+font-family: var(--paragraph-default-font-family, 'Poppins-Bold', sans-serif);
+font-size: var(--paragraph-default-font-size, 18px);
+line-height: var(--paragraph-default-line-height, 30px);
+font-weight: var(--paragraph-default-font-weight, 400);
+position: relative;
+width: 310.36px;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.social-media-icon-square-facebook {
+    flex-shrink: 0;
+    width: 11px;
+    height: 19px;
+    position: relative;
+    overflow: visible;
+}
+
+.social-media-icon-square-instagram {
+    flex-shrink: 0;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    overflow: visible;
+}
+
+.social-media-icon-square-linked-in {
+    flex-shrink: 0;
+    width: 19px;
+    height: 18px;
+    position: relative;
+}
+
+.group-73 {
+    width: 94.74%;
+    height: 95.24%;
+    position: absolute;
+    right: 0.79%;
+    left: 4.47%;
+    bottom: 0.19%;
+    top: 4.58%;
+    overflow: visible;
+}
+
+.social-media-icon-square-you-tube {
+    flex-shrink: 0;
+    width: 21px;
+    height: 15px;
+    position: relative;
+}
+
+.group-732 {
+    width: 94.29%;
+    height: 93.31%;
+    position: absolute;
+    right: 1.19%;
+    left: 4.52%;
+    bottom: 4.04%;
+    top: 2.64%;
+    overflow: visible;
+}
+
+.footer-right {
+    flex-shrink: 0;
+    width: 165px;
+    height: 158px;
+    position: static;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 434.36px;
+    top: 0px;
+}
+
+.footer-title {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--text-single-300-bold-font-family, 'DmSans-Bold', sans-serif);
+    font-size: var(--text-single-300-bold-font-size, 20px);
+    line-height: var(--text-single-300-bold-line-height, 22px);
+    font-weight: var(--text-single-300-bold-font-weight, 700);
+    position: relative;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.master-link {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.home {
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
+    font-size: var(--text-single-200-regular-font-size, 18px);
+    line-height: var(--text-single-200-regular-line-height, 20px);
+    font-weight: var(--text-single-200-regular-font-weight, 400);
+    position: relative;
+}
+
+.chi-siamo {
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
+    font-size: var(--text-single-200-regular-font-size, 18px);
+    line-height: var(--text-single-200-regular-line-height, 20px);
+    font-weight: var(--text-single-200-regular-font-weight, 400);
+    position: relative;
+}
+
+.termini-e-condizioni {
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
+    font-size: var(--text-single-200-regular-font-size, 18px);
+    line-height: var(--text-single-200-regular-line-height, 20px);
+    font-weight: var(--text-single-200-regular-font-weight, 400);
+    position: relative;
+}
+
+.footer-column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.privacy-policy {
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
+    font-size: var(--text-single-200-regular-font-size, 18px);
+    line-height: var(--text-single-200-regular-line-height, 20px);
+    font-weight: var(--text-single-200-regular-font-weight, 400);
+    position: relative;
+}
+
+.cookie-policy {
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
+    font-size: var(--text-single-200-regular-font-size, 18px);
+    line-height: var(--text-single-200-regular-line-height, 20px);
+    font-weight: var(--text-single-200-regular-font-weight, 400);
+    position: relative;
+}
+
+.link2 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 116px;
+    height: 20px;
+    position: relative;
+}
+
+.group-39464 {
+    flex-shrink: 0;
+    width: 265px;
+    height: 208px;
+    position: static;
+}
+
+.link3 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1015.36px;
+    top: 64px;
+}
+
+.line-rounded-email {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.email {
+    width: 83.33%;
+    height: 62.5%;
+    position: absolute;
+    right: 8.33%;
+    left: 8.33%;
+    bottom: 18.17%;
+    top: 19.33%;
+    overflow: visible;
+}
+
+.link-item {
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
+    font-size: var(--text-single-200-regular-font-size, 18px);
+    line-height: var(--text-single-200-regular-line-height, 20px);
+    font-weight: var(--text-single-200-regular-font-weight, 400);
+    position: relative;
+}
+
+.footer-column3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1015.36px;
+    top: 0px;
+}
+
+.link4 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1015.36px;
+    top: 106px;
+}
+
+.line-rounded-phone {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.phone {
+    width: 83.34%;
+    height: 83.33%;
+    position: absolute;
+    right: 8.32%;
+    left: 8.33%;
+    bottom: 9.84%;
+    top: 6.83%;
+    overflow: visible;
+}
+
+._8-px {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1015.36px;
+    top: 148px;
+}
+
+.spacer-icon-wrapper {
+    flex-shrink: 0;
+    width: 20px;
+    height: 25.7px;
+    position: static;
+}
+
+.line-rounded-mark {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 5.7px;
+    overflow: hidden;
+}
+
+.mark {
+    width: 68.61%;
+    height: 83.33%;
+    position: absolute;
+    right: 15.7%;
+    left: 15.7%;
+    bottom: 8.33%;
+    top: 8.33%;
+    overflow: visible;
+}
+
+.spacer {
+    background: #ededed;
+    opacity: 0;
+    width: 16.74px;
+    height: 10.46px;
+    position: absolute;
+    left: 1.41px;
+    top: 0px;
+}
+
+.footer-description {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--paragraph-default-font-family, 'DmSans-Regular', sans-serif);
+    font-size: var(--paragraph-default-font-size, 18px);
+    line-height: var(--paragraph-default-line-height, 30px);
+    font-weight: var(--paragraph-default-font-weight, 400);
+    position: relative;
+    width: 197.62px;
+}
+
+.copyright2 {
+    width: 1302px;
+    height: 50px;
+    position: static;
+}
+
+.footer-botom {
+    width: 1302px;
+    height: 50px;
+    position: static;
+}
+
+.copyright3 {
+    color: #f5f5fa;
+    text-align: center;
+    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
+    font-size: var(--text-single-200-regular-font-size, 18px);
+    line-height: var(--text-single-200-regular-line-height, 18px);
+    font-weight: var(--text-single-200-regular-font-weight, 400);
+    position: absolute;
+    left: 491.35px;
+    top: 330px;
+    width: 466.37px;
+}
+
+.divider {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px 0 0 0;
+    width: 1302px;
+    height: 0px;
+    position: absolute;
+    left: 1375px;
+    top: 298px;
+    transform-origin: 0 0;
+    transform: rotate(180deg) scale(1, 1);
+}
+
+
+/* sezione 1 */
+.text, /* titolo */
+.text * {
+    box-sizing: border-box;
+}
+
+.text {
+    color: #000000;
+    text-align: left;
+    bottom: -90px;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 100px;
+    line-height: 96%;
+    font-weight: 0;
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+
+.text, /* didascalia */
+.text-1 * {
+    box-sizing: border-box;
+}
+
+.text-1 {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+   font-size: 20px;
+  line-height: 129%;
+  font-weight: 400;
+  position: relative;
+  top: 135px;
+  left: 65px;
+}
+
+/*sezione immagine */
+img {
+
+    width: 100px; /* Imposta la larghezza a 100px */
+    height: auto; /* Mantiene le proporzioni originali */
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+position: absolute;
+top: 380px;
+
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  img {
+    width: 100%;
+    height: 560px;
+    position: absolute;
+   left: 0px;
+   bottom: 50px;
+    object-fit: cover; /* Ritaglia l'immagine per riempire il contenitore */
+  }
+
+  
+
+
+/* info parco */
+.section-12 {
+    width: 802px;
+    height: 105px;
+    position: static;
+}
+
+.discalia {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 129%;
+    font-weight: 400;
+    position: absolute;
+    left: calc(55% - 252px);
+    top: 1020px;
+    width: 802px;
+}
+
+.icona {
+    width: 175.46px;
+    height: 255px;
+    position: absolute;
+    left: 250px;
+    top: 950px;
+
+    object-fit: cover;
+
+}
+
+
+ /* parte sezione 1 */
+
+.parte-1,
+.parte-1 * {
+    box-sizing: border-box;
+}
+
+.parte-1 {
+    height: 3342px;
+    position: relative;
+    left: -400px;
+   top: 900px;
+}
+
+._2 {
+    width: 1772px;
+    height: 660px;
+    position: static;
+}
+
+.group-39531 {
+    width: 551px;
+    height: 391px;
+    position: static;
+}
+
+.fauna-emblematica {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 50px;
+    line-height: 114%;
+    font-weight: 600;
+    position: absolute;
+    left: 574px;
+    top: 1015px;
+    width: 514px;
+}
+
+.nonostante-l-aspetto-aspro-del-territorio-il-parco-dell-etna-ospita-una-sorprendente-biodiversit-la-fauna-composta-da-numerose-specie-adattatesi-alle-condizioni-uniche-del-vulcano-tra-gli-animali-pi-comuni-ci-sono-le-volpi-i-conigli-selvatici-e-i-ricci-il-parco-anche-un-luogo-privilegiato-per-l-osservazione-degli-uccelli-con-specie-come-il-falco-pellegrino-l-allocco-e-l-aquila-del-bonelli-la-lucertola-campestre-e-altri-piccoli-rettili-completano-il-panorama-faunistico {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 17.921348571777344px;
+    line-height: 129%;
+    font-weight: 400;
+    position: absolute;
+    left: 574px;
+    top: 1199px;
+    width: 551px;
+}
+
+.rectangle-681 {
+    width: 568px;
+    height: 660px;
+    position: absolute;
+    left: 1204px;
+    top: 880px;
+    object-fit: cover;
+}
+
+.frame-15 {
+    width: 575px;
+    height: 140px;
+    position: absolute;
+    left: 0px;
+    top: 925px;
+}
+
+._3 {
+    width: 1261px;
+    height: 660px;
+    position: static;
+}
+
+.frame-152 {
+    width: 575px;
+    height: 140px;
+    position: absolute;
+    left: 1260px;
+    top: 1810px;
+}
+
+.group-39535 {
+    position: absolute;
+    inset: 0;
+}
+
+.un-patrimonio-storico-e-culturale {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 50px;
+    line-height: 114%;
+    font-weight: 600;
+    position: absolute;
+    left: -56px;
+    top: 7px;
+    width: 514px;
+}
+
+.oltre-alla-sua-straordinaria-bellezza-naturale-il-parco-dell-etna-profondamente-radicato-nella-cultura-siciliana-i-borghi-che-circondano-il-vulcano-come-nicolosi-zafferana-etnea-e-linguaglossa-sono-ricchi-di-storia-e-tradizioni-qui-si-possono-scoprire-antiche-chiese-monasteri-e-musei-che-raccontano-la-lunga-relazione-tra-l-uomo-e-il-vulcano-feste-popolari-come-la-sagra-del-miele-di-zafferana-celebrano-i-prodotti-tipici-e-il-legame-indissolubile-tra-la-comunit-locale-e-il-territorio {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 17.921348571777344px;
+    line-height: 129%;
+    font-weight: 400;
+    position: absolute;
+    left: -56px;
+    top: 191px;
+    width: 551px;
+}
+
+.rectangle-6812 {
+    width: 568px;
+    height: 660px;
+    position: absolute;
+    left: 574px;
+    top: 1682px;
+    object-fit: cover;
+}
+
+.sezione-2 {
+    width: 1198px;
+    height: 660px;
+    position: static;
+}
+
+.paesaggi-vulcanici-e-contrasti-naturali {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 50px;
+    line-height: 114%;
+    font-weight: 600;
+    position: absolute;
+    left: 1204px;
+    top: 110px;
+    width: 514px;
+}
+
+.il-parco-dell-etna-un-museo-a-cielo-aperto-di-paesaggi-vulcanici-il-vulcano-con-i-suoi-oltre-3-300-metri-di-altezza-domina-l-intera-sicilia-orientale-la-sua-attivit-vulcanica-ha-creato-un-territorio-unico-caratterizzato-da-crateri-fumanti-colate-laviche-nere-e-deserti-di-lava-crateri-iconici-come-il-cratere-centrale-e-i-crateri-silvestri-situati-sul-versante-sud-sono-tra-le-mete-pi-visitate-offrendo-un-panorama-mozzafiato-e-la-possibilit-di-camminare-su-terreni-modellati-dalle-eruzioni-pi-recenti-la-variet-di-altitudini-del-parco-d-vita-a-contrasti-naturali-straordinari-alla-base-del-vulcano-il-paesaggio-dominato-da-agrumeti-vigneti-e-uliveti-che-prosperano-grazie-alla-fertilit-del-terreno-vulcanico-salendo-verso-i-1-800-metri-si-incontrano-boschi-rigogliosi-di-querce-castagni-e-pini-nelle-aree-subalpine-la-vegetazione-si-dirada-lasciando-spazio-alla-ginestra-dell-etna-una-pianta-resistente-che-colonizza-i-campi-di-lava-oltre-i-2-900-metri-il-paesaggio-si-trasforma-in-un-deserto-vulcanico-un-ambiente-surreale-dominato-da-rocce-scure-e-crateri {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 17.921348571777344px;
+    line-height: 129%;
+    font-weight: 400;
+    position: absolute;
+    left: 1204px;
+    top: 294px;
+    width: 551px;
+}
+
+.rectangle-6813 {
+    width: 568px;
+    height: 660px;
+    position: absolute;
+    left: 557px;
+    top: 74px;
+    object-fit: cover;
+}
+
+.line-2 {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 1135px;
+    height: 0px;
+    position: absolute;
+    left: 774px;
+    top: 0px;
+}
+
+
+/* parte sezione 2-griglia */
+.section-3,
+.section-3 * {
+    box-sizing: border-box;
+}
+
+.section-3 {
+    height: 1075px;
+    position: relative;
+}
+
+.group-39532 {
+    width: 1449px;
+    height: 538px;
+    position: static;
+}
+
+.rectangle-677 {
+    width: 900px;
+    height: 538px;
+    position: absolute;
+    left: calc(50% - 724.5px);
+    top: 0px;
+    object-fit: cover;
+}
+
+.rectangle-678 {
+    width: 464px;
+    height: 252px;
+    position: absolute;
+    left: 990px;
+    top: 0px;
+    object-fit: cover;
+}
+
+.rectangle-6782 {
+    width: 464px;
+    height: 252px;
+    position: absolute;
+    left: 985px;
+    top: 286px;
+    object-fit: cover;
+}
+
+.group-39534 {
+    width: 1164.93px;
+    height: 413px;
+    position: static;
+}
+
+.group-39533 {
+    width: 1164.93px;
+    height: 413px;
+    position: static;
+}
+
+.attivit-per-i-visitatori {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 50px;
+    line-height: 114%;
+    font-weight: 600;
+    position: absolute;
+    left: 70px;
+    top: 662px;
+    width: 577px;
+}
+
+.frame-9 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1164.93px;
+    position: absolute;
+    left: 70px;
+    top: 789px;
+}
+
+.il-parco-dell-etna-una-destinazione-perfetta-per-chi-ama-la-natura-e-l-avventura-una-delle-esperienze-pi-popolari-l-escursione-verso-i-crateri-sommitali-questi-percorsi-condotti-da-guide-esperte-offrono-un-opportunit-unica-per-osservare-da-vicino-le-fumarole-attive-le-colate-laviche-e-i-paesaggi-lunari-i-sentieri-escursionistici-adatti-a-diversi-livelli-di-difficolt-si-estendono-lungo-tutte-le-fasce-altitudinali-del-parco-tra-i-pi-suggestivi-c-quello-che-porta-alla-valle-del-bove-una-vasta-depressione-vulcanica-che-racconta-la-storia-delle-eruzioni-passate-le-grotte-vulcaniche-sono-un-altra-attrazione-imperdibile-del-parco-formatesi-dal-raffreddamento-della-lava-queste-grotte-rappresentano-un-mondo-nascosto-e-affascinante-la-grotta-del-gelo-famosa-per-contenere-ghiaccio-perenne-e-la-grotta-dei-lamponi-con-le-sue-spettacolari-formazioni-sono-due-delle-pi-visitate-in-inverno-l-etna-diventa-una-stazione-sciistica-dove-possibile-sciare-con-una-vista-unica-sul-mare-nei-mesi-pi-caldi-il-parco-ideale-per-passeggiate-a-cavallo-escursioni-in-mountain-bike-e-degustazioni-enogastronomiche {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 2px;
+    line-height: 129%;
+    font-weight: 400;
+    position: relative;
+    width: 1033px;
+}
+
+
+/* parte sezione 3 */
+
+.text,
+.text * {
+    box-sizing: border-box;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.group-39538 {
+    flex-shrink: 0;
+    width: 507px;
+    height: 414px;
+    position: static;
+}
+
+.conservazione-e-sostenibilit {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 50px;
+    line-height: 114%;
+    font-weight: 600;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 470px;
+}
+
+.nel-2013-il-parco-dell-etna-stato-inserito-nella-lista-dei-patrimoni-dell-umanit-unesco-un-riconoscimento-che-ne-sottolinea-l-importanza-ambientale-culturale-e-scientifica-la-gestione-del-parco-mira-a-proteggere-la-biodiversit-e-a-garantire-uno-sviluppo-sostenibile-le-attivit-turistiche-sono-regolamentate-per-ridurre-l-impatto-ambientale-assicurando-che-l-etna-rimanga-una-risorsa-preziosa-per-le-generazioni-future {
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 129%;
+    font-weight: 400;
+    position: absolute;
+    left: 0px;
+    top: 154px;
+    width: 507px;
+}
+
+.conservation-section {
+    font-family:
+      Poppins,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+  }
+  
+  .conservation-layout {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .image-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+  }
+  
+  .conservation-image {
+    aspect-ratio: 0.86;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+    top: 128px;
+  }
+  
+  .content-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: normal;
+    width: 50%;
+    margin-left: 20px;
+  }
+  
+  .content-wrapper {
+    z-index: 10;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: stretch;
+    color: #000000;
+  }
+  
+  .section-title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 57px;
+    align-self: start;
+    margin: 0;
+    position: relative;
+    top: 98px;
+ right: 90px;
+  }
+  
+  .section-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 70px;
+    margin: 70px 0 0 0;
+    position: relative;
+    top: 128px;
+ right: 90px;
+  }
+  
+  @media (max-width: 991px) {
+    .conservation-layout {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  
+    .image-column {
+      width: 100%;
+    }
+  
+    .conservation-image {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .content-column {
+      width: 100%;
+    }
+  
+    .content-wrapper {
+      max-width: 100%;
+      margin-top: 40px;
+      margin-right: -13px;
+    }
+  
+    .section-title {
+      font-size: 40px;
+      line-height: 51px;
+    }
+  
+    .section-description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+
+/* zona*/
+  .etna-visit {
+    font-family:
+      Poppins,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: #000000;
+  }
+  
+  .etna-visit__content {
+    z-index: 10;
+    display: flex;
+    margin-top: -8px;
+    margin-left: 55px;
+    width: 100%;
+    max-width: 1185px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .etna-visit__title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1;
+    align-self: start;
+    margin: 0;
+    position: relative;
+    top: 400px;
+  }
+  
+  .etna-visit__description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 54px;
+    margin-bottom: 0;
+    position: relative;
+    top: 400px;
+  }
+  
+  .etna-visit__map {
+ 
+    margin-top: 84px;
+    height: 522px;
+    width: 100%;
+    overflow: hidden;
+   position: relative;
+   top: 290px;
+  }
+  
+  .etna-visit__map-container {
+    width: 100%;
+   
+  }
+  
+  .etna-visit__map-image {
+    aspect-ratio: 2.75;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    position: relative;
+    top: 100px;
+  }
+  
+  @media (max-width: 991px) {
+    .etna-visit__content {
+      max-width: 100%;
+    }
+  
+    .etna-visit__title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  
+    .etna-visit__description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .etna-visit__map {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .etna-visit__map-container {
+      max-width: 100%;
+    }
+  
+    .etna-visit__map-image {
+      max-width: 100%;
+    }
+  }
+  

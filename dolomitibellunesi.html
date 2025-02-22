@@ -1,0 +1,293 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dolomitibellunesi.css"> <!-- Collegamento al file CSS -->
+    <title>Parco Nazionale delle Dolomiti Bellunesi</title>
+   
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html, body {
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
+      
+    
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+            font-size: 18px;
+        }
+        .navbar a {
+            flex: 1 1 auto;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: rgb(2, 2, 2);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                flex: 100%;
+                text-align: left;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="parchi.html">PARCHI</a>
+        <a href="floraefauna.html">FLORA E FAUNA</a>
+        <a href="attività.html">ATTIVITÀ</a>
+    </div>
+
+
+      <!-- FOOTER+social icon -->
+      <div class="footer">
+        <div class="rectangle-647">
+        </div>
+        <div class="info">
+            <div class="frame-3">
+                <div class="_24-px">
+                    <div class="logo-3">
+                        <div class="parchi-d-italia-1"> Parchi d’Italia </div>
+                    </div>
+                    <div class="copyright"> Guida ai parchi nazionali, riserve naturali e aree protette. </div>
+                    <div class="social-media-container">
+                        <svg class="social-media-icon-square-facebook" width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.31339 18.3945V10.1839H10.2081L10.6415 6.98403H7.31331V4.94106C7.31331 4.01463 7.58348 3.38332 8.97893 3.38332L10.7586 3.38252V0.520603C10.4508 0.481677 9.39429 0.394531 8.16531 0.394531C5.59929 0.394531 3.84255 1.88571 3.84255 4.62426V6.98403H0.94043V10.1839H3.84255V18.3945H7.31339V18.3945Z" fill="white" />
+                        </svg>
+                        <svg class="social-media-icon-square-instagram" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.849609 9.39453C0.849609 5.79939 0.849609 4.00182 1.7063 2.70708C2.08886 2.12892 2.584 1.63378 3.16216 1.25122C4.4569 0.394531 6.25447 0.394531 9.84961 0.394531C13.4447 0.394531 15.2423 0.394531 16.5371 1.25122C17.1152 1.63378 17.6104 2.12892 17.9929 2.70708C18.8496 4.00182 18.8496 5.79939 18.8496 9.39453C18.8496 12.9897 18.8496 14.7872 17.9929 16.082C17.6104 16.6601 17.1152 17.1553 16.5371 17.5378C15.2423 18.3945 13.4447 18.3945 9.84961 18.3945C6.25447 18.3945 4.4569 18.3945 3.16216 17.5378C2.584 17.1553 2.08886 16.6601 1.7063 16.082C0.849609 14.7872 0.849609 12.9897 0.849609 9.39453ZM14.5089 9.39476C14.5089 11.9681 12.4228 14.0542 9.84945 14.0542C7.27613 14.0542 5.19004 11.9681 5.19004 9.39476C5.19004 6.82144 7.27613 4.73535 9.84945 4.73535C12.4228 4.73535 14.5089 6.82144 14.5089 9.39476ZM9.84945 12.4778C11.5521 12.4778 12.9325 11.0975 12.9325 9.39476C12.9325 7.69206 11.5521 6.31176 9.84945 6.31176C8.14675 6.31176 6.76645 7.69206 6.76645 9.39476C6.76645 11.0975 8.14675 12.4778 9.84945 12.4778ZM14.6929 5.59608C15.2975 5.59608 15.7877 5.10591 15.7877 4.50126C15.7877 3.8966 15.2975 3.40643 14.6929 3.40643C14.0882 3.40643 13.5981 3.8966 13.5981 4.50126C13.5981 5.10591 14.0882 5.59608 14.6929 5.59608Z" fill="white" />
+                        </svg>
+                        <div class="social-media-icon-square-linked-in">
+                            <svg class="group-73" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.849609 2.31458C0.849609 1.73737 1.05232 1.26118 1.45772 0.886013C1.86312 0.510827 2.39016 0.323242 3.0388 0.323242C3.67587 0.323242 4.1913 0.507935 4.58513 0.877355C4.99053 1.25831 5.19324 1.75469 5.19324 2.36653C5.19324 2.92064 4.99633 3.38239 4.6025 3.75181C4.19711 4.13276 3.66428 4.32324 3.00405 4.32324H2.98668C2.3496 4.32324 1.83417 4.13276 1.44034 3.75181C1.04651 3.37086 0.849609 2.89178 0.849609 2.31458ZM1.07548 17.4661V5.899H4.93262V17.4661H1.07548ZM7.06969 17.4661H10.9268V11.0072C10.9268 10.6032 10.9732 10.2915 11.0658 10.0722C11.228 9.67965 11.4741 9.34776 11.8042 9.07649C12.1344 8.8052 12.5484 8.66956 13.0465 8.66956C14.3438 8.66956 14.9925 9.54113 14.9925 11.2843V17.4661H18.8496V10.8341C18.8496 9.12554 18.4442 7.82973 17.6334 6.94662C16.8226 6.0635 15.7512 5.62194 14.4191 5.62194C12.9249 5.62194 11.7608 6.26263 10.9268 7.54402V7.57865H10.9095L10.9268 7.54402V5.899H7.06969C7.09285 6.2684 7.10444 7.41702 7.10444 9.34488C7.10444 11.2727 7.09285 13.9798 7.06969 17.4661Z" fill="white" />
+                            </svg>
+                        </div>
+                        <div class="social-media-icon-square-you-tube">
+                            <svg class="group-732" width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.2884 14.3747L7.22617 14.2988C5.91092 14.2723 4.5924 14.3251 3.30294 14.051C1.34138 13.6415 1.20241 11.6336 1.057 9.94939C0.856641 7.58155 0.934207 5.17074 1.31232 2.82266C1.52577 1.50514 2.3658 0.718973 3.66488 0.633423C8.05023 0.322948 12.4647 0.359743 16.8404 0.50459C17.3025 0.517869 17.7678 0.590445 18.2235 0.673056C20.4728 1.07597 20.5276 3.35137 20.6734 5.26683C20.8189 7.20205 20.7575 9.14721 20.4795 11.0693C20.2566 12.6607 19.8299 13.9952 18.0296 14.124C15.7738 14.2925 13.5698 14.4281 11.3077 14.3849C11.3078 14.3747 11.2948 14.3747 11.2884 14.3747ZM8.90019 10.3457C10.6001 9.34831 12.2676 8.36752 13.9577 7.3768C12.2547 6.37939 10.5904 5.3986 8.90019 4.40788V10.3457Z" fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-column">
+                        <div class="footer-title"> Link utili </div>
+                        <div class="footer-links">
+                            <div class="link">
+                                <div class="master-link">
+                                    <div class="home"> Home </div>
+                                </div>
+                            </div>
+                            <div class="link">
+                                <div class="master-link">
+                                    <div class="chi-siamo"> Chi siamo </div>
+                                </div>
+                            </div>
+                            <div class="link">
+                                <div class="master-link">
+                                    <div class="termini-e-condizioni"> Termini e condizioni </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-column2">
+                    <div class="footer-title"> Privacy </div>
+                    <div class="footer-links">
+                        <div class="link">
+                            <div class="master-link">
+                                <div class="privacy-policy"> Privacy policy </div>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <div class="master-link">
+                                <div class="cookie-policy"> Cookie policy </div>
+                            </div>
+                        </div>
+                        <div class="link">
+                            <div class="master-link">
+                                <div class="termini-e-condizioni"> Termini e Condizioni </div>
+                            </div>
+                        </div>
+                        <div class="link2">
+                        </div>
+                        <div class="link">
+                            <div class="master-link">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-39464">
+                    <div class="link3">
+                        <div class="master-link">
+                            <div class="line-rounded-email">
+                                <svg class="email" width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.6894 2.94922V11.2826C16.6894 11.8351 16.4699 12.365 16.0792 12.7557C15.6885 13.1464 15.1586 13.3659 14.606 13.3659H2.10604C1.5535 13.3659 1.0236 13.1464 0.632899 12.7557C0.242198 12.365 0.0227051 11.8351 0.0227051 11.2826V2.94922" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M16.6894 2.94954C16.6894 2.39701 16.4699 1.86711 16.0792 1.47641C15.6885 1.0857 15.1586 0.866211 14.606 0.866211H2.10604C1.5535 0.866211 1.0236 1.0857 0.632899 1.47641C0.242198 1.86711 0.0227051 2.39701 0.0227051 2.94954L7.25187 7.46343C7.58298 7.67038 7.96558 7.7801 8.35604 7.7801C8.7465 7.7801 9.1291 7.67038 9.46021 7.46343L16.6894 2.94954Z" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="link-item"> info@parchinaturalitalia.com </div>
+                        </div>
+                    </div>
+                    <div class="footer-column3">
+                        <div class="footer-title"> Contattaci </div>
+                    </div>
+                    <div class="link4">
+                        <div class="master-link">
+                            <div class="line-rounded-phone">
+                                <svg class="phone" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.6076 16.3851L10.6167 16.3915C11.4038 16.8926 12.3382 17.1102 13.2657 17.0084C14.1932 16.9065 15.0581 16.4913 15.7177 15.8313L16.2906 15.2584C16.4176 15.1315 16.5183 14.9808 16.587 14.815C16.6557 14.6492 16.6911 14.4714 16.6911 14.2919C16.6911 14.1124 16.6557 13.9347 16.587 13.7688C16.5183 13.603 16.4176 13.4524 16.2906 13.3255L13.874 10.9107C13.7471 10.7838 13.5965 10.683 13.4307 10.6143C13.2648 10.5456 13.0871 10.5102 12.9076 10.5102C12.7281 10.5102 12.5503 10.5456 12.3845 10.6143C12.2187 10.683 12.068 10.7838 11.9411 10.9107C11.6849 11.1669 11.3375 11.3108 10.9752 11.3108C10.6129 11.3108 10.2654 11.1669 10.0092 10.9107L6.14522 7.04586C5.88907 6.78963 5.74517 6.44217 5.74517 6.07987C5.74517 5.71757 5.88907 5.3701 6.14522 5.11388C6.27218 4.987 6.3729 4.83633 6.44162 4.67051C6.51034 4.50468 6.54571 4.32694 6.54571 4.14744C6.54571 3.96794 6.51034 3.79019 6.44162 3.62437C6.3729 3.45854 6.27218 3.30788 6.14522 3.18099L3.72956 0.766251C3.47334 0.510106 3.12587 0.366211 2.76357 0.366211C2.40127 0.366211 2.05381 0.510106 1.79758 0.766251L1.22373 1.33919C0.56388 1.99883 0.148819 2.86385 0.0471295 3.79131C-0.0545601 4.71878 0.163208 5.65318 0.66445 6.44012L0.669915 6.44923C3.3171 10.3658 6.69054 13.7386 10.6076 16.3851V16.3851Z" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="link-item"> 394 800 0000 </div>
+                        </div>
+                    </div>
+                    <div class="_8-px">
+                        <div class="spacer-icon-wrapper">
+                            <div class="line-rounded-mark">
+                                <svg class="mark" width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.2169 7.65577C14.2169 13.0346 8.70769 16.3484 7.5628 16.9795C7.49938 17.0145 7.42813 17.0329 7.35569 17.0329C7.28326 17.0329 7.21201 17.0145 7.14858 16.9795C6.00284 16.3484 0.495361 13.0346 0.495361 7.65577C0.495361 3.36779 3.06815 0.366211 7.35612 0.366211C11.6441 0.366211 14.2169 3.36779 14.2169 7.65577Z" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M3.92578 7.22726C3.92578 8.13705 4.2872 9.00958 4.93052 9.6529C5.57384 10.2962 6.44637 10.6576 7.35616 10.6576C8.26596 10.6576 9.13849 10.2962 9.78181 9.6529C10.4251 9.00958 10.7865 8.13705 10.7865 7.22726C10.7865 6.31746 10.4251 5.44493 9.78181 4.80161C9.13849 4.15829 8.26596 3.79688 7.35616 3.79688C6.44637 3.79688 5.57384 4.15829 4.93052 4.80161C4.2872 5.44493 3.92578 6.31746 3.92578 7.22726V7.22726Z" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="spacer">
+                            </div>
+                        </div>
+                        <div class="footer-description"> Via dei Parchi, 100<br />00100 Roma, Italia </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright2">
+            <div class="footer-botom">
+                <div class="copyright3"> Copyright © 2025 Parchi d’Italia | Tutti i diritti riservati </div>
+                <div class="divider">
+                </div>
+            </div>
+        </div>
+    </div>
+</style>
+
+
+<!-- sezione 1 -->
+<div class="text"> Parco Nazionale delle Dolomiti Bellunesi </div> <!-- titolo -->
+<!-- didascalia-->
+<div class="text-1"> Patrimonio UNESCO con cime imponenti, fiori rari <br>come la stella alpina e paesaggi rocciosi unici. </div>
+<img class="img" src="img%202/32.jpg" /> 
+
+<!-- info parco-->
+            <div class="section-12">
+                <div class="discalia"> l Parco Nazionale delle Dolomiti Bellunesi, istituito nel 1993, si estende per oltre 31.000 ettari nella regione del Veneto, abbracciando alcune delle aree più spettacolari delle Dolomiti, riconosciute come Patrimonio dell’Umanità UNESCO. Questo parco, situato interamente nella provincia di Belluno, è famoso per le sue imponenti formazioni rocciose, le valli incontaminate e una straordinaria biodiversità che lo rendono un gioiello naturalistico di fama mondiale. </div>
+            </div><img class="icona" src="img%202/33.jpg" />
+  
+<!-- parte sezione 1-->
+    <div class="parte-1">
+        <div class="_2">
+            <div class="group-39531">
+                <div class="fauna-emblematica"> Fauna <br> emblematica </div>
+                <div class="nonostante-l-aspetto-aspro-del-territorio-il-parco-dell-etna-ospita-una-sorprendente-biodiversit-la-fauna-composta-da-numerose-specie-adattatesi-alle-condizioni-uniche-del-vulcano-tra-gli-animali-pi-comuni-ci-sono-le-volpi-i-conigli-selvatici-e-i-ricci-il-parco-anche-un-luogo-privilegiato-per-l-osservazione-degli-uccelli-con-specie-come-il-falco-pellegrino-l-allocco-e-l-aquila-del-bonelli-la-lucertola-campestre-e-altri-piccoli-rettili-completano-il-panorama-faunistico"> Il Parco Nazionale delle Dolomiti Bellunesi è un rifugio per numerose specie animali, molte delle quali rare o protette. Tra i mammiferi, il camoscio alpino è una presenza caratteristica delle aree più alte, mentre il cervo e il capriolo popolano le zone boschive. La presenza del gallo cedrone e del picchio nero testimonia la qualità dell’ecosistema forestale del parco. Tra i rapaci, l’aquila reale e il gufo reale dominano i cieli, mentre i piccoli abitanti delle rocce, come la marmotta, completano il quadro di una fauna ricca e diversificata. L’ambiente fluviale ospita la rara trota marmorata, simbolo dell’equilibrio ecologico delle acque del parco.
+                    
+                     </div>
+            </div><img class="rectangle-681" src="img%202/35.jpg" />
+            <div class="frame-15">
+            </div>
+        </div>
+        <div class="_3">
+            <div class="frame-152">
+                <div class="un-patrimonio-storico-e-culturale"> Un patrimonio botanico straordinario </div>
+                <div class="oltre-alla-sua-straordinaria-bellezza-naturale-il-parco-dell-etna-profondamente-radicato-nella-cultura-siciliana-i-borghi-che-circondano-il-vulcano-come-nicolosi-zafferana-etnea-e-linguaglossa-sono-ricchi-di-storia-e-tradizioni-qui-si-possono-scoprire-antiche-chiese-monasteri-e-musei-che-raccontano-la-lunga-relazione-tra-l-uomo-e-il-vulcano-feste-popolari-come-la-sagra-del-miele-di-zafferana-celebrano-i-prodotti-tipici-e-il-legame-indissolubile-tra-la-comunit-locale-e-il-territorio"> La flora del parco è altrettanto affascinante, con una ricchezza botanica che lo rende un paradiso per gli appassionati di piante e fiori. Le Dolomiti Bellunesi ospitano circa 1.500 specie vegetali, alcune delle quali estremamente rare o endemiche. Tra queste spicca la Campanula Morettiana, una pianta che cresce esclusivamente sulle rocce dolomitiche, e la stella alpina, simbolo delle montagne alpine. Le foreste del parco sono dominate da faggi, larici e abeti rossi, mentre nei prati alpini fioriscono gigli, orchidee e genziane. Le aree umide, come quelle delle Gole del Mis, ospitano piante acquatiche e muschi, creando microambienti di grande interesse naturalistico.
+</div>
+            </div><img class="rectangle-6812" src="img%202/36.jpg" />
+        </div>
+        <div class="sezione-2">
+            <div class="paesaggi-vulcanici-e-contrasti-naturali">Montagne e paesaggi <br> spettacolari </div>
+            <div class="il-parco-dell-etna-un-museo-a-cielo-aperto-di-paesaggi-vulcanici-il-vulcano-con-i-suoi-oltre-3-300-metri-di-altezza-domina-l-intera-sicilia-orientale-la-sua-attivit-vulcanica-ha-creato-un-territorio-unico-caratterizzato-da-crateri-fumanti-colate-laviche-nere-e-deserti-di-lava-crateri-iconici-come-il-cratere-centrale-e-i-crateri-silvestri-situati-sul-versante-sud-sono-tra-le-mete-pi-visitate-offrendo-un-panorama-mozzafiato-e-la-possibilit-di-camminare-su-terreni-modellati-dalle-eruzioni-pi-recenti-la-variet-di-altitudini-del-parco-d-vita-a-contrasti-naturali-straordinari-alla-base-del-vulcano-il-paesaggio-dominato-da-agrumeti-vigneti-e-uliveti-che-prosperano-grazie-alla-fertilit-del-terreno-vulcanico-salendo-verso-i-1-800-metri-si-incontrano-boschi-rigogliosi-di-querce-castagni-e-pini-nelle-aree-subalpine-la-vegetazione-si-dirada-lasciando-spazio-alla-ginestra-dell-etna-una-pianta-resistente-che-colonizza-i-campi-di-lava-oltre-i-2-900-metri-il-paesaggio-si-trasforma-in-un-deserto-vulcanico-un-ambiente-surreale-dominato-da-rocce-scure-e-crateri"> Le Dolomiti Bellunesi sono celebri per la loro bellezza unica e per la varietà dei paesaggi. Il parco comprende una serie di massicci montuosi tra cui la Schiara, il Pizzocco e le Vette Feltrine, che raggiungono altezze superiori ai 2.500 metri. Le montagne sono caratterizzate da pareti verticali, guglie imponenti e vallate profonde, scolpite dall’erosione e dai ghiacciai che un tempo dominavano la zona. Tra le attrazioni più spettacolari si trovano i Monti del Sole, un'area remota e selvaggia, e le Gole del Mis, una serie di canyon spettacolari che offrono scenari suggestivi di rocce e cascate. Questi paesaggi, unici nel loro genere, rappresentano una meta privilegiata per escursionisti e appassionati di natura.
+                 </div><img class="rectangle-6813" src="img%202/34.jpg" />
+        </div>
+        <div class="line-2">
+        </div>
+    </div>
+</div>
+
+<!-- parte sezione 2-griglia-->
+<div class="section-3">
+    <div class="group-39532">
+        <img class="rectangle-677" src="img%202/37.jpg" />
+    </div>
+    <div class="group-39534">
+        <div class="group-39533">
+            <div class="attivit-per-i-visitatori"> Attività per i visitatori </div>
+            <div class="frame-9">
+                <div class="il-parco-dell-etna-una-destinazione-perfetta-per-chi-ama-la-natura-e-l-avventura-una-delle-esperienze-pi
+                popolari-l-escursione-verso-i-crateri-sommitali-questi-percorsi-condotti-da-guide-esperte-offrono-un-opportunit-unica-per-osservare-da-vicino-
+                le-fumarole-attive-le-colate-laviche-e-i-paesaggi-lunari-i-sentieri-escursionistici-adatti-a-diversi-livelli-di-difficolt-si-estendono-lungo-tutte-le-fasce-altitudinali-del-parco-tra-i-pi-suggestivi-c-quello-che-porta-alla-valle-del-bove-una-vasta-depressione-vulcanica-che-racconta-la-storia-delle-eruzioni-passate-le-grotte-vulcaniche-sono-un-altra-attrazione-imperdibile-del-parco-formatesi-dal-raffreddamento-della-lava-queste-grotte-rappresentano-un-mondo-nascosto-e-affascinante-la-grotta-del-gelo-famosa-per-contenere-ghiaccio-perenne-e-la-grotta-dei-lamponi-con-le-sue-spettacolari-formazioni-sono-due-delle-pi-visitate-in-inverno-l-etna-diventa-una-stazione-sciistica-dove-possibile-sciare-con-una-vista-unica-sul-mare-nei-mesi-pi-caldi-il-parco-ideale-per-passeggiate-a-cavallo-escursioni-in-mountain-bike-e-degustazioni-enogastronomiche"> Il parco offre una vasta gamma di attività all’aria aperta, ideali per chi ama immergersi nella natura incontaminata. Con oltre 200 chilometri di sentieri, gli escursionisti possono scegliere tra percorsi di diverse difficoltà. Tra i più suggestivi c’è il Sentiero delle Farangole, che attraversa paesaggi alpini mozzafiato, e il Sentiero Dino Buzzati, un itinerario dedicato al celebre scrittore bellunese. Gli appassionati di speleologia possono esplorare alcune delle grotte più affascinanti della zona, come la Grotta Azzurra, famosa per le sue suggestive sfumature di colore, mentre chi preferisce esperienze più rilassanti può optare per una passeggiata nelle Gole del Mis, tra cascate, piscine naturali e formazioni rocciose spettacolari. In inverno, il parco offre opportunità per le ciaspolate e lo sci alpinismo, che consentono di vivere l’atmosfera magica delle Dolomiti innevate. Durante la primavera e l’estate, invece, il paesaggio si colora di fiori selvatici, rendendo i percorsi particolarmente pittoreschi.  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- parte sezione 3-->
+<article class="conservation-section">
+    <div class="conservation-layout">
+      <div class="image-column">
+        <img
+          loading="lazy"
+          src="img%202/40.jpg"
+          class="conservation-image"
+          alt="Conservation and sustainability at Mount Etna"
+        />
+      </div>
+      <div class="content-column">
+        <div class="content-wrapper">
+          <h2 class="section-title">Conservazione e <br> sostenibilità</h2>
+          <p class="section-description">
+            Il parco è un modello di conservazione ambientale e gestione sostenibile. Come parte del Patrimonio UNESCO, il Parco Nazionale delle Dolomiti Bellunesi è impegnato nella protezione della biodiversità e nella promozione di un turismo responsabile. Le attività umane, come il pascolo e la silvicoltura, sono regolate per minimizzare l’impatto sull’ambiente, garantendo un equilibrio tra uomo e natura.
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+  <!-- zona-->
+  <section class="etna-visit">
+    <article class="etna-visit__content">
+      <h1 class="etna-visit__title">Come visitare il Parco Nazionale delle Dolomiti Bellunesi</h1>
+      <p class="etna-visit__description">
+        Il parco è facilmente raggiungibile da Belluno e Feltre, con diversi punti di accesso che offrono informazioni turistiche e servizi per i visitatori. Tra questi, il Centro Visite di Pedavena e il Centro Visite La Santina, dove è possibile ottenere mappe, consigli sui percorsi e dettagli sugli eventi stagionali. La primavera e l’autunno sono i periodi migliori per visitare il parco, grazie ai colori spettacolari della natura e al clima mite. Tuttavia, ogni stagione ha il suo fascino: l’estate è ideale per il trekking, mentre l’inverno regala l’incanto delle Dolomiti innevate. Con i suoi paesaggi unici, la straordinaria biodiversità e il ricco patrimonio culturale, il Parco Nazionale delle Dolomiti Bellunesi rappresenta una destinazione imperdibile per chiunque voglia scoprire la bellezza autentica delle Dolomiti. Un luogo dove natura e cultura si fondono, regalando esperienze indimenticabili.
+      </p>
+    </article>
+    <section class="etna-visit__map">
+      <div class="etna-visit__map-container">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e8de98ad22422555a738bb75ed8f12df3efa101e281772574acb005b78752bb?placeholderIfAbsent=true&apiKey=1053f093603a45b19dbf563dafc08408"
+          alt="Mappa del Parco dell'Etna"
+          class="etna-visit__map-image"
+        />
+      </div>
+    </section>
+  </section>
+  
